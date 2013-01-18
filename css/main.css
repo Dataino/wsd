@@ -1,0 +1,247 @@
+body, h1, h2, h3, h4, h5, h6, div, ul, li, nav, aside, article, section, footer {
+	margin:0 auto;
+}
+
+body {
+	font-family: "Gochi Hand", verdana, geneva, san-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	width:994px;
+	margin: 0 auto;	
+	background-image: url("../images/bggreen.gif");
+}
+
+#divwrapper {
+	width:994px;
+	margin:0px auto;
+	box-shadow: #272229 10px 10px 20px;
+}
+
+header {
+	width:598px;
+	float:left;
+}
+h1 {
+	margin-top: -20px;
+	text-indent:-994px
+}
+
+aside {
+	width:376px;
+	float:right;
+}
+
+#divheader {
+	margin-top: 20px;
+	width:994px;
+	background-image: url("../images/bgcgrass.gif");
+	text-align:center;
+}
+
+#divheader img {
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+#divline {
+	width:994px;
+	background:#000;
+	height:1px;
+}
+
+#divlines {
+	width:994px;
+	background:#000;
+	height:1px;
+}
+
+#divlinks {
+	width:994px;
+	background:#BBA980;
+}
+
+#divnav {
+	width:504px;
+	background:#BBA980;
+	height:42px;
+	margin:0 auto;
+}
+
+#divnav ul {
+	list-style-type:none;
+}
+
+#divnav ul li {
+	float:left;
+}
+
+#divnav ul li a {
+	display:block;
+	height:26px;
+	line-height:26px;
+	background: #000;
+	width:100px;
+	font-size:1.5em;
+	font-weight:bold;
+	color:#ba5b60;
+	text-align:center;
+	text-decoration:none;
+	margin:7px;
+	margin-left: 0px;
+	
+	/*-------------Border radius-------------*/
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border: 1px solid #000;
+}
+
+#divnav ul li a:hover {
+	background:#333;
+}
+
+#divnav ul li a.current, #divnav ul li a.current:hover {
+	background:#333;
+	color:#f63;
+	cursor:default;
+}
+
+#divcontenta {
+	width:994px;
+	background-image: url("../images/bgprimlight.gif");
+	border:1px solid #000;
+	box-shadow: #272229 10px 10px 20px;
+}
+
+a:link{
+	color: #ff28bc;
+}
+
+a:visited{
+	color: #151bf9;
+}
+
+a:hover{
+	color: #0d7cff;
+}
+
+a:active{
+	color: #9112ff;
+}
+
+
+#divcontenta img {
+	float:left;
+}
+
+#divcontentp {
+	font-family: "times", geneva, san-serif;
+	text-indent:20px;
+	text-align: left;
+	font-size: 1.2em;
+	color: #000;
+	padding: 0.7em;
+	line-height: 1.3em;
+}
+
+#divcontenta h1, h2, h3, h4 {
+	font-family: "Gochi Hand", verdana, geneva, san-serif;
+	font-size: 2.7em;
+	text-shadow: 2px 2px 13px #050202;
+	color:#702125;
+	padding-top:1.8em;
+}
+
+#gallery {
+	border: 5px solid #1D0C16;
+	width: 816px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: visible;
+	background: #301616;
+	box-shadow: #272229 10px 10px 20px;
+}
+
+#gallery ul{
+   margin-left:0px; 
+}
+
+#gallery ul li {
+	list-style:none; display:inline-table; padding:10px;
+}
+	 	 
+/* This is the pic to display when the hover action occur over the li that contains the thumbnail  */
+#gallery ul li .pic {
+   opacity:0;
+   visibility:hidden; 
+   position:absolute; 
+   margin-top:50px; 
+   margin-left:-190px; 
+   border:1px solid black;
+   box-shadow:#272229 2px 2px 10px;
+}
+
+#gallery ul li .mini:hover {
+	cursor:pointer;
+}
+
+#gallery ul li:hover .pic {
+	width:500px; 
+	height:400px;
+	opacity:1; 
+	visibility:visible; 
+	float:left;
+}
+
+#divcontentb {
+	background-image: url("../images/bgprimlight.gif");
+	border:1px solid #000;
+	box-shadow: #272229 10px 10px 20px;
+}
+
+#divcontentp2 {
+	font-family: "times", geneva, san-serif;
+	text-indent:20px;
+	text-align: left;
+	font-size: 1.2em;
+	color: #000;
+	padding: 0.7em;
+	line-height: 1.3em;
+}
+
+#divcontentc {
+	background-image: url("../images/bgprimlight.gif");
+	border:1px solid #000;
+	box-shadow: #272229 10px 10px 20px;
+}
+
+#divcontentp3 {
+	font-family: "times", geneva, san-serif;
+	text-indent:20px;
+	text-align: left;
+	font-size: 1.2em;
+	color: #000;
+	padding: 0.7em;
+	line-height: 1.3em;
+}
+
+#divabout {
+	-moz-column-count:3;
+	-moz-column-gap:10px;
+	-webkit-column-count:3;
+	-webkit-column-gap:10px;
+	background-image: url("../images/bgprimlight.gif");
+	border:1px solid #000;
+	box-shadow: #272229 10px 10px 20px;
+}
+
+#footer {
+	text-align: center;
+	font-family: "times", geneva, san-serif;
+	font-size: 1.2em;
+	color: black;
+	padding-top: 10px;
+	clear: both;	
+}
+
+
